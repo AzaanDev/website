@@ -5,11 +5,11 @@ import { siteConfig } from "@/config/site"
 export function Skills() {
   return (
     <section className="bg-background">
-      <div className="pb-10 px-4 mx-auto max-w-4xl ">
+      <div className="mx-auto max-w-4xl px-4 pb-10 ">
         <div className="mx-auto">
-          <h2 className="mb-4 text-lg tracking-tight font-extrabold">Skills</h2>
+          <h2 className="mb-4 text-lg font-extrabold tracking-tight">Skills</h2>
         </div>
-        <div className="grid px-3 gap-y-5 md:grid-cols-10 text-[13px]/[16px] text-center">
+        <div className="grid gap-y-5 px-3 text-center text-[13px]/[16px] md:grid-cols-10">
           <div>C</div>
           <div>C++</div>
           <div>C#</div>

@@ -33,7 +33,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
-        <head />
+        <head>
+          <title>Azaan Ali | Professional Portfolio Website</title>
+          <meta
+            name="description"
+            content="Explore Azaan Ali's Professional Portfolio Website featuring captivating low-level C++ projects. Discover C++ programming expertise through system-level development, performance optimization, and efficient algorithms. Immerse yourself in Azaan's portfolio showcasing software engineering, programming projects, and cutting-edge C++ solutions."
+          ></meta>
+        </head>
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
